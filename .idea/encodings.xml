@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" addBOMForNewFiles="with NO BOM">
+    <file url="file://$PROJECT_DIR$/spring-cloud-node-eureka-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-node-eureka-client/assembly" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-node-eureka-client/eureka-client-node" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-node-eureka-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-node-eureka-server/assembly" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-node-eureka-server/eureka-server-node" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-v2x-eureka-demo1" charset="UTF-8" />
+  </component>
+</project>

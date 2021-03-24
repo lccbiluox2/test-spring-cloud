@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-node-eureka-server/assembly/assembly.iml" filepath="$PROJECT_DIR$/spring-cloud-node-eureka-server/assembly/assembly.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-node-eureka-client/assembly/assembly (1) (com.spring.cloud.node.eureka.assembly).iml" filepath="$PROJECT_DIR$/spring-cloud-node-eureka-client/assembly/assembly (1) (com.spring.cloud.node.eureka.assembly).iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-node-eureka-client/eureka-client-node/eureka-client-node.iml" filepath="$PROJECT_DIR$/spring-cloud-node-eureka-client/eureka-client-node/eureka-client-node.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-node-eureka-server/eureka-server-node/eureka-server-node.iml" filepath="$PROJECT_DIR$/spring-cloud-node-eureka-server/eureka-server-node/eureka-server-node.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-node-eureka-client/spring-cloud-node-eureka-client.iml" filepath="$PROJECT_DIR$/spring-cloud-node-eureka-client/spring-cloud-node-eureka-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-node-eureka-server/spring-cloud-node-eureka-server.iml" filepath="$PROJECT_DIR$/spring-cloud-node-eureka-server/spring-cloud-node-eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/test-spring-cloud.iml" filepath="$PROJECT_DIR$/.idea/test-spring-cloud.iml" />
+    </modules>
+  </component>
+</project>

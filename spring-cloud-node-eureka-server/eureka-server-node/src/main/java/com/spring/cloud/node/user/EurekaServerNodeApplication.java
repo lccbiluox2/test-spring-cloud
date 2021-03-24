@@ -10,6 +10,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
 public class EurekaServerNodeApplication {
 
 	public static void main(String[] args) {
+		System.out.println("xx");
 		SpringApplication.run(EurekaServerNodeApplication.class, args);
 	}
 
