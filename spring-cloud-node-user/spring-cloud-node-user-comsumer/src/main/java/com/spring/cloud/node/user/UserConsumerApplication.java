@@ -3,7 +3,6 @@ package com.spring.cloud.node.user;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
-import com.fasterxml.jackson.datatype.jsr310.ser.ZoneIdSerializer;
 
 /**
  * @author: chuanchuan.lcc
@@ -18,6 +17,8 @@ import com.fasterxml.jackson.datatype.jsr310.ser.ZoneIdSerializer;
 public class UserConsumerApplication {
 
     public static void main(String[] args) {
+
+        System.out.println("xx");
         SpringApplication.run(UserConsumerApplication.class, args);
     }
 

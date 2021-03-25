@@ -27,10 +27,12 @@ public class UserCenterController {
         // 使用discoveryClient 类能够与eureka server 交互， getInstances 获取注册到eureka server
         // 的"spring-cloud-order-service-provider" 实例列表
 
-        List<ServiceInstance> instances = discoveryClient.getInstances("spring-cloud-order-service-provider");
+        List<ServiceInstance> instances = discoveryClient.getInstances("eureka-client");
 
         // 获取第一个服务信息
-        ServiceInstance instanceInfo = instances.get(0);
+
+        int serviceId =(int)(Math.random()*2);
+        ServiceInstance instanceInfo = instances.get(serviceId);
         //获取ip
         String ip = instanceInfo.getHost();
         //获取port

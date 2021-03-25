@@ -1,4 +1,4 @@
-package com.spring.cloud.node.user.controller;
+package com.spring.cloud.node.eureka.server.controller;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  * @author: chuanchuan.lcc
- * @date: 2021-03-24 09:15
+ * @date: 2021-03-25 12:13
  * @modifiedBy: chuanchuan.lcc
  * @version: 1.0
  * @description:
@@ -25,6 +25,7 @@ public class OrderStatisticServiceController {
      */
     @GetMapping("/getTodayFinishOrderNum/{id}")
     public Integer getTodayFinishOrderNum(@PathVariable("id") Integer id){
+        System.out.println("我是10013");
         return port;
     }
 }

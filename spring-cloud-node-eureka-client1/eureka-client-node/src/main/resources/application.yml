@@ -1,0 +1,20 @@
+#配置注册中心1的端口，可以随意设置，不能跟其他端口冲突
+server:
+  port: 10013
+#配置注册中心1的名字，可以随意起
+spring:
+  application:
+    #通过查看注册中心查看有哪些模块注册进了这个注册中心
+    name: eureka-client
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    # 是否向eureka注册自身服务
+    register-with-eureka: true
+    #是否检索服务
+    fetch-registry: true
+    #服务注册地址
+    service-url:
+#      defaultZone: http://${eureka.instance.hostname}:10010/eureka/
+      defaultZone: http://localhost:10010/eureka/
