@@ -40,4 +40,24 @@ public class UserCenterController {
         String url  ="http://"+ip+":"+port+"/order/data/getTodayFinishOrderNum/"+id;
         return restTemplate.getForObject(url, Integer.class);
     }
+
+    @GetMapping("/movie/{id}")
+    public Integer findById(@PathVariable Long id) {
+        // VIP: Virtual IP http://microservice-provider-user/即虚拟IP 服务提供者的ServiceId （spring.application.name）
+//        String url = "http://lcc/eureka-client/order/data/getTodayFinishOrderNum/" + id;
+//        String url = "http://localhost/eureka-client/order/data/getTodayFinishOrderNum/" + id;
+//        String url = "http://eureka-client/ureka-client/order/data/getTodayFinishOrderNum/" + id;
+//        String url = "http://hbuy-eureka/ureka-client/order/data/getTodayFinishOrderNum/" + id;
+//        String url = "http://ureka-client/order/data/getTodayFinishOrderNum/" + id;
+//        String url = "http://loclhost/ureka-client/order/data/getTodayFinishOrderNum/" + id;
+//        String url = "http://lcc/ureka-client/order/data/getTodayFinishOrderNum/" + id;
+
+
+//        String url = "http://UREKA-CLIENT/ureka-client/order/data/getTodayFinishOrderNum/" + id;
+//        String url = "http://LOCLHOST/ureka-client/order/data/getTodayFinishOrderNum/" + id;
+//        String url = "http://UREKA-CLIENT/order/data/getTodayFinishOrderNum/" + id;
+        String url = "http://ureka-client/order/data/getTodayFinishOrderNum/" + id;
+        System.out.println(url);
+        return this.restTemplate.getForObject(url, Integer.class);
+    }
 }
